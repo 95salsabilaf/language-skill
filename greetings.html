@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Skill</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+      <section class="sub-header">
+        <nav>
+          <h1>Language Skill</h1>
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./course.html">GREETINGS GALORE</a></li>
+              <li><a href="./greetings.html">GREETINGS QUIZ</a></li>
+              <li><a href="./spelling.html">SPELLING QUIZ</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </section>
+
+    <!--blog page content-->
+
+    <section class="blog-content">
+          <div class="quiz-container">
+            <h1>Greetings Quiz</h1>
+            <p>You can do this quiz online or print it on paper. It tests what you learned on our Greetings in English pages.</p>
+    
+            <div id="quiz">
+                <!-- Questions and Options will be populated here by JavaScript -->
+            </div>
+    
+            <button id="submitBtn" onclick="submitQuiz()">Submit Answers</button>
+    
+            <div id="results"></div>
+            <script src="quiz.js"></script>
+          </div>
+    </section>
+
+
+    <!--end-->
+
+
+    <!--------- footer --------->
+
+    <section class="footer">
+      <h4>Learning Skill</h4>
+      <!--------- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur error asperiores vero vel incidunt sit!</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>--------->
+      <p>Made by Learning Skill</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
